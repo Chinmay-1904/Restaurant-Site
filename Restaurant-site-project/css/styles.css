@@ -1,0 +1,297 @@
+body{
+	font-size: 16px;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	
+}
+
+#logo{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+}
+
+#brand{
+	padding-top: 25px;
+}
+
+#brand{
+	font-family: 'Lora', serif;
+	color: #0e9c17;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: .75;
+}
+
+#star{
+	color: #000;
+	margin-top: 1px;
+}
+
+#brand span{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#home{
+	color: #0c5c57;
+	margin-top: 30px;
+	margin-bottom: 0;
+	line-height: .75;
+	padding: 20px;
+
+}
+
+#homep{
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: #0c5c57;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 10px;
+
+}
+
+#Menu{
+	color: #0c5c57;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+#Menup{
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: #0c5c57;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 10px;
+}
+
+
+
+#Awards{
+	color: #0c5c57;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+#Awardsp{
+	text-transform: uppercase;
+	margin-top: : 10px;
+	color: #0c5c57;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 10px;
+
+}
+
+#info{
+	color: #0c5c57;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+#infop{
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+	color: #0c5c57;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 20px;
+}
+
+
+
+#phone{
+	color: #0c5c57;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+
+#phonep{
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+	color: #0c5c57;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 15px;
+}
+
+
+#menu-tile, #special-tile, #map-tile{
+	margin-top: 20px;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+	background: url('menu.jpg') no-repeat;
+	background-position: center; 
+
+}
+
+#special-tile{
+	background: url(special2.jpg) no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #special-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	color: white;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic;
+}
+
+#menu-category{
+	margin-top: 10px;
+	color: white;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: black;
+	text-transform: uppercase;
+}
+
+.category-tile{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+
+
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-category + div{
+	margin-bottom: 50px;
+
+}
+
+#awardsh2{
+	margin-top: 10px;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+#infoh2{
+	margin-top: 10px;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+#callh2{
+	margin-top: 10px;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+#contact{
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	text-align: center;
+	font-size: 40px;
+	color: #788c15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
